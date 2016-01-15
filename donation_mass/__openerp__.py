@@ -24,7 +24,7 @@
 
 {
     'name': 'Donation Mass',
-    'version': '0.1',
+    'version': '8.0.0.1.0',
     'category': 'Religion',
     'license': 'AGPL-3',
     'summary': 'Ability to create mass from donation lines',
@@ -35,6 +35,7 @@
         'mass_view.xml',
         'donation_view.xml',
         'donation_mass_data.xml',
+        'security/ir.model.access.csv',
         ],
     'demo': ['donation_mass_demo.xml'],
     'test': ['test/donation_mass.yml'],
